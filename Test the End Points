@@ -1,0 +1,21 @@
+🚀 Test Endpoints
+Register:
+POST http://localhost:5000/api/auth/register
+
+json
+Copy
+Edit
+{ "email": "sivam@example.com", "password": "123456" }
+Login:
+POST http://localhost:5000/api/auth/login
+
+json
+Copy
+Edit
+{ "email": "sivam@example.com", "password": "123456" }
+Response:
+
+json
+Copy
+Edit
+{ "token": "eyJhbGciOi..." }
